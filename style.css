@@ -1,0 +1,63 @@
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana, sans-serif;
+}
+body {
+  padding: 0px;
+  margin: 0px;
+}
+.title-banner {
+  background-image: url("africa.jpg") ;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  color: white;
+  /*  
+  padding-top: 20px;
+  padding-bottom: 20px;
+  */
+}
+.container {
+  padding: 15px;
+  max-width: 1024px;
+  margin: 0px auto;
+}
+h2 {
+  font-weight: 500;
+  font-size: 2em;
+  margin-top: 50px;
+}
+p {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 100;
+}
+.naija {
+  background-color: green;
+}
+.ghana {
+  background-color: yellow;
+}
+.south {
+  background-color: blue;
+}
+
+@media screen and (min-width: 768px)
+{.item-wrapper {display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;}   
+}
+.item {
+  width: 40%;
+  background-color: black;
+  color: white;
+  padding: 20px;
+
+}
+
+@media screen and (min-width: 1024px)
+{.item {
+  width: 30%;
+}
+}
