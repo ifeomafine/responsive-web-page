@@ -1,0 +1,112 @@
+
+.about-section {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+    height: 80vh;
+}
+.about-content {
+    margin-left: 2rem;
+}
+.about-content h1 {
+    font-size: 3rem;
+    font-weight: 300;
+    line-height: 30px;
+    text-align: left;
+    margin-bottom: 5rem;
+}
+.about-content p {
+    font-size: 2rem;
+    text-align: left;
+    line-height: 24px;
+}
+.about-img {
+    width:  60%;
+    padding: 1rem;
+    height: 55%;
+}
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+.image-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+    background-color: beige;
+    margin-top: -2rem;
+}
+#Formheader {
+    font-size: 2rem;
+    margin-top: -0.1rem;
+}
+.form-wrapper {
+    background-color: #ffffff;
+    width: 30rem;
+    height: 20rem;
+    border-radius: 2rem;
+    padding: 1.5rem, 1.5rem;
+}
+form {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+label {
+    align-self: flex-start;
+    font-weight: 700;
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+}
+input {
+    width: 100%;
+    border-radius: .5rem;
+    border: 1px solid #cccccc;
+    height: 4rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+}
+textarea {
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+}
+button {
+    margin-top: 4rem;
+    width: 8rem;
+    height: 4rem;
+    border-radius: 5rem;
+    border: none;
+    background-color: orange;
+    color: lightgoldenrodyellow;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.5;
+    color: #000000;
+}
+footer {
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 4rem;
+}
+footer p {
+    font-size: 1.3rem;
+    color: #000000;
+}

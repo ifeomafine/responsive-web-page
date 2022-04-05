@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doorstep Grocery</title>
+     
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylept2.css">
+    <link rel="stylesheet" href="mediaquery.css">
+</head>
+<body>
+    <main>
+        <section class="wrapper">
+          <nav class="home-nav">
+            <div class="logo">
+              <a href="index.html">Doorstep Grocery</a>
+            </div>
+              <ul>
+                <!-- I bookmarked ID "Formheader" and referenced it here, so when someone clicks here,
+                   it takes them to the bottom part of the website that has the CONTACT US BOX. -->
+                <li class="nav-item"><a href="#Formheader">Contact Us</a></li>
+                <li class="nav-item"><a href="aboutus.html" target="_blank">About Us</a></li>
+                <li class="nav-item"><a href="team.html" target="_blank">Meet the Team</a></li>
+              </ul>
+          </nav>
+          <div class="container">
+            <h1>We ease your Shopping Hassles.</h1>
+            <p>
+              Send in your Grocery List and join our community of
+              Rich Aunty and Fresh Moms Geng.
+            </p>
+            <a href="reviews.html"><button class="learn-more" target="_blank">Reviews</button></a>
+
+            <!-- <button class="learn-more">Learn More</button> -->
+          </div>
+        </section>
+        <section class="about-section">
+          <div class="about-content">
+            <h1>At Doorstep Grocery, we believe in the power to change the world</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, amet.</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis,
+              fuga.
+            </p>
+          </div>
+          <div class="about-img">
+            <div class="image-wrapper">
+              <img src="assets/delivery2.jpg" alt="worker" />
+            </div>
+          </div>
+        </section>
+        <section class="contact-wrapper">
+          <h3 id="Formheader">Contact Us</h3>
+          <div class="form-wrapper">
+            <form action="">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                placeholder="Enter your name"
+                name="name"
+                id="name"
+                required
+              />
+              <label for="email">Email</label>
+              <input
+                type="email"
+                placeholder="Enter your email"
+                id="email"
+                required
+              />
+              <label for="List">Grocery List</label>
+              <textarea
+                placeholder="Please type in your Grocery List"
+                name="list"
+                id="list"
+                required
+                rows="6"
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+      </main>
+      <footer>
+        <p>Doorstep Grocery</p>
+        <p>Copyright &copy;2021</p>
+      </footer>
+</body>
+</html>
